@@ -8,6 +8,36 @@
 
 /* Begin PBXBuildFile section */
 		4053DBC71FA2E46E001587B9 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4053DBC61FA2E46E001587B9 /* main.swift */; };
+		4053DBF61FA2EAE1001587B9 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4053DBF51FA2EAE1001587B9 /* Color.swift */; };
+		4053DBF81FA2EAEB001587B9 /* Prototype.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4053DBF71FA2EAEB001587B9 /* Prototype.swift */; };
+		4053DC081FA2EB80001587B9 /* PrototypeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4053DC071FA2EB80001587B9 /* PrototypeTests.swift */; };
+		4053DC091FA2F0A1001587B9 /* Prototype.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4053DBF71FA2EAEB001587B9 /* Prototype.swift */; };
+		4053DC0A1FA2F0FE001587B9 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4053DBF51FA2EAE1001587B9 /* Color.swift */; };
+		4053DC0B1FA2F102001587B9 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4053DBC61FA2E46E001587B9 /* main.swift */; };
+		4053DC0D1FA2F4C0001587B9 /* Factory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4053DC0C1FA2F4C0001587B9 /* Factory.swift */; };
+		4053DC0E1FA2F4C0001587B9 /* Factory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4053DC0C1FA2F4C0001587B9 /* Factory.swift */; };
+		4053DC101FA2F4CE001587B9 /* AbstractFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4053DC0F1FA2F4CE001587B9 /* AbstractFactory.swift */; };
+		4053DC111FA2F4CE001587B9 /* AbstractFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4053DC0F1FA2F4CE001587B9 /* AbstractFactory.swift */; };
+		4053DC131FA2F4DB001587B9 /* Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4053DC121FA2F4DB001587B9 /* Singleton.swift */; };
+		4053DC141FA2F4DB001587B9 /* Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4053DC121FA2F4DB001587B9 /* Singleton.swift */; };
+		4053DC161FA2F4F6001587B9 /* SingletonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4053DC151FA2F4F6001587B9 /* SingletonTests.swift */; };
+		4053DC181FA2F501001587B9 /* FactoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4053DC171FA2F501001587B9 /* FactoryTests.swift */; };
+		4053DC1A1FA2F50F001587B9 /* AbstractFactoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4053DC191FA2F50F001587B9 /* AbstractFactoryTests.swift */; };
+		4053DC1C1FA531FB001587B9 /* VehicleType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4053DC1B1FA531FB001587B9 /* VehicleType.swift */; };
+		4053DC1D1FA531FB001587B9 /* VehicleType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4053DC1B1FA531FB001587B9 /* VehicleType.swift */; };
+		4053DC1F1FA53216001587B9 /* Bumper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4053DC1E1FA53216001587B9 /* Bumper.swift */; };
+		4053DC201FA53216001587B9 /* Bumper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4053DC1E1FA53216001587B9 /* Bumper.swift */; };
+		4053DC231FA53246001587B9 /* Wheel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4053DC221FA53246001587B9 /* Wheel.swift */; };
+		4053DC241FA53246001587B9 /* Wheel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4053DC221FA53246001587B9 /* Wheel.swift */; };
+		4053DC261FA5325D001587B9 /* WheelSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4053DC251FA5325D001587B9 /* WheelSize.swift */; };
+		4053DC271FA5325D001587B9 /* WheelSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4053DC251FA5325D001587B9 /* WheelSize.swift */; };
+		4053DC291FA53335001587B9 /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4053DC281FA53335001587B9 /* Vehicle.swift */; };
+		4053DC2A1FA53335001587B9 /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4053DC281FA53335001587B9 /* Vehicle.swift */; };
+		4053DC301FA53B1F001587B9 /* WheelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4053DC2F1FA53B1F001587B9 /* WheelTests.swift */; };
+		4053DC331FA53CAF001587B9 /* Flower.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4053DC321FA53CAF001587B9 /* Flower.swift */; };
+		4053DC341FA53CAF001587B9 /* Flower.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4053DC321FA53CAF001587B9 /* Flower.swift */; };
+		4053DC361FA53CED001587B9 /* Plant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4053DC351FA53CED001587B9 /* Plant.swift */; };
+		4053DC371FA53CED001587B9 /* Plant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4053DC351FA53CED001587B9 /* Plant.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,10 +55,37 @@
 /* Begin PBXFileReference section */
 		4053DBC31FA2E46E001587B9 /* swift-design-patterns */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "swift-design-patterns"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4053DBC61FA2E46E001587B9 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		4053DBF51FA2EAE1001587B9 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		4053DBF71FA2EAEB001587B9 /* Prototype.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prototype.swift; sourceTree = "<group>"; };
+		4053DBF91FA2EB2E001587B9 /* CreationalPatterns.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = CreationalPatterns.md; sourceTree = "<group>"; };
+		4053DBFE1FA2EB58001587B9 /* unit-tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "unit-tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4053DC021FA2EB59001587B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4053DC071FA2EB80001587B9 /* PrototypeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrototypeTests.swift; sourceTree = "<group>"; };
+		4053DC0C1FA2F4C0001587B9 /* Factory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Factory.swift; sourceTree = "<group>"; };
+		4053DC0F1FA2F4CE001587B9 /* AbstractFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractFactory.swift; sourceTree = "<group>"; };
+		4053DC121FA2F4DB001587B9 /* Singleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Singleton.swift; sourceTree = "<group>"; };
+		4053DC151FA2F4F6001587B9 /* SingletonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingletonTests.swift; sourceTree = "<group>"; };
+		4053DC171FA2F501001587B9 /* FactoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactoryTests.swift; sourceTree = "<group>"; };
+		4053DC191FA2F50F001587B9 /* AbstractFactoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractFactoryTests.swift; sourceTree = "<group>"; };
+		4053DC1B1FA531FB001587B9 /* VehicleType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleType.swift; sourceTree = "<group>"; };
+		4053DC1E1FA53216001587B9 /* Bumper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bumper.swift; sourceTree = "<group>"; };
+		4053DC221FA53246001587B9 /* Wheel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wheel.swift; sourceTree = "<group>"; };
+		4053DC251FA5325D001587B9 /* WheelSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WheelSize.swift; sourceTree = "<group>"; };
+		4053DC281FA53335001587B9 /* Vehicle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vehicle.swift; sourceTree = "<group>"; };
+		4053DC2F1FA53B1F001587B9 /* WheelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WheelTests.swift; sourceTree = "<group>"; };
+		4053DC321FA53CAF001587B9 /* Flower.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flower.swift; sourceTree = "<group>"; };
+		4053DC351FA53CED001587B9 /* Plant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plant.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		4053DBC01FA2E46E001587B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4053DBFB1FA2EB58001587B9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -42,6 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				4053DBC51FA2E46E001587B9 /* swift-design-patterns */,
+				4053DBFF1FA2EB59001587B9 /* unit-tests */,
 				4053DBC41FA2E46E001587B9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,6 +108,7 @@
 			isa = PBXGroup;
 			children = (
 				4053DBC31FA2E46E001587B9 /* swift-design-patterns */,
+				4053DBFE1FA2EB58001587B9 /* unit-tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -57,9 +116,83 @@
 		4053DBC51FA2E46E001587B9 /* swift-design-patterns */ = {
 			isa = PBXGroup;
 			children = (
+				4053DBF41FA2EACD001587B9 /* Creational */,
+				4053DBF31FA2EAC3001587B9 /* Models */,
 				4053DBC61FA2E46E001587B9 /* main.swift */,
 			);
 			path = "swift-design-patterns";
+			sourceTree = "<group>";
+		};
+		4053DBF31FA2EAC3001587B9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4053DC311FA53CA1001587B9 /* Plant */,
+				4053DC211FA53220001587B9 /* Vehicle */,
+				4053DBF51FA2EAE1001587B9 /* Color.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4053DBF41FA2EACD001587B9 /* Creational */ = {
+			isa = PBXGroup;
+			children = (
+				4053DBF91FA2EB2E001587B9 /* CreationalPatterns.md */,
+				4053DC0F1FA2F4CE001587B9 /* AbstractFactory.swift */,
+				4053DC0C1FA2F4C0001587B9 /* Factory.swift */,
+				4053DBF71FA2EAEB001587B9 /* Prototype.swift */,
+				4053DC121FA2F4DB001587B9 /* Singleton.swift */,
+			);
+			path = Creational;
+			sourceTree = "<group>";
+		};
+		4053DBFF1FA2EB59001587B9 /* unit-tests */ = {
+			isa = PBXGroup;
+			children = (
+				4053DC061FA2EB70001587B9 /* Creational */,
+				4053DC2B1FA53AD7001587B9 /* Models */,
+				4053DC021FA2EB59001587B9 /* Info.plist */,
+			);
+			path = "unit-tests";
+			sourceTree = "<group>";
+		};
+		4053DC061FA2EB70001587B9 /* Creational */ = {
+			isa = PBXGroup;
+			children = (
+				4053DC191FA2F50F001587B9 /* AbstractFactoryTests.swift */,
+				4053DC171FA2F501001587B9 /* FactoryTests.swift */,
+				4053DC071FA2EB80001587B9 /* PrototypeTests.swift */,
+				4053DC151FA2F4F6001587B9 /* SingletonTests.swift */,
+			);
+			path = Creational;
+			sourceTree = "<group>";
+		};
+		4053DC211FA53220001587B9 /* Vehicle */ = {
+			isa = PBXGroup;
+			children = (
+				4053DC1E1FA53216001587B9 /* Bumper.swift */,
+				4053DC1B1FA531FB001587B9 /* VehicleType.swift */,
+				4053DC221FA53246001587B9 /* Wheel.swift */,
+				4053DC251FA5325D001587B9 /* WheelSize.swift */,
+				4053DC281FA53335001587B9 /* Vehicle.swift */,
+			);
+			path = Vehicle;
+			sourceTree = "<group>";
+		};
+		4053DC2B1FA53AD7001587B9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4053DC2F1FA53B1F001587B9 /* WheelTests.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4053DC311FA53CA1001587B9 /* Plant */ = {
+			isa = PBXGroup;
+			children = (
+				4053DC321FA53CAF001587B9 /* Flower.swift */,
+				4053DC351FA53CED001587B9 /* Plant.swift */,
+			);
+			path = Plant;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -82,6 +215,23 @@
 			productReference = 4053DBC31FA2E46E001587B9 /* swift-design-patterns */;
 			productType = "com.apple.product-type.tool";
 		};
+		4053DBFD1FA2EB58001587B9 /* unit-tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4053DC031FA2EB59001587B9 /* Build configuration list for PBXNativeTarget "unit-tests" */;
+			buildPhases = (
+				4053DBFA1FA2EB58001587B9 /* Sources */,
+				4053DBFB1FA2EB58001587B9 /* Frameworks */,
+				4053DBFC1FA2EB58001587B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "unit-tests";
+			productName = "unit-tests";
+			productReference = 4053DBFE1FA2EB58001587B9 /* unit-tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -93,6 +243,10 @@
 				ORGANIZATIONNAME = "No Name Software";
 				TargetAttributes = {
 					4053DBC21FA2E46E001587B9 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					4053DBFD1FA2EB58001587B9 = {
 						CreatedOnToolsVersion = 9.0;
 						ProvisioningStyle = Automatic;
 					};
@@ -111,16 +265,64 @@
 			projectRoot = "";
 			targets = (
 				4053DBC21FA2E46E001587B9 /* swift-design-patterns */,
+				4053DBFD1FA2EB58001587B9 /* unit-tests */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4053DBFC1FA2EB58001587B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4053DBBF1FA2E46E001587B9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4053DC231FA53246001587B9 /* Wheel.swift in Sources */,
+				4053DC0D1FA2F4C0001587B9 /* Factory.swift in Sources */,
+				4053DC331FA53CAF001587B9 /* Flower.swift in Sources */,
+				4053DC131FA2F4DB001587B9 /* Singleton.swift in Sources */,
+				4053DC1F1FA53216001587B9 /* Bumper.swift in Sources */,
+				4053DC261FA5325D001587B9 /* WheelSize.swift in Sources */,
+				4053DC361FA53CED001587B9 /* Plant.swift in Sources */,
 				4053DBC71FA2E46E001587B9 /* main.swift in Sources */,
+				4053DC101FA2F4CE001587B9 /* AbstractFactory.swift in Sources */,
+				4053DBF61FA2EAE1001587B9 /* Color.swift in Sources */,
+				4053DC291FA53335001587B9 /* Vehicle.swift in Sources */,
+				4053DC1C1FA531FB001587B9 /* VehicleType.swift in Sources */,
+				4053DBF81FA2EAEB001587B9 /* Prototype.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4053DBFA1FA2EB58001587B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4053DC1A1FA2F50F001587B9 /* AbstractFactoryTests.swift in Sources */,
+				4053DC371FA53CED001587B9 /* Plant.swift in Sources */,
+				4053DC111FA2F4CE001587B9 /* AbstractFactory.swift in Sources */,
+				4053DC141FA2F4DB001587B9 /* Singleton.swift in Sources */,
+				4053DC301FA53B1F001587B9 /* WheelTests.swift in Sources */,
+				4053DC2A1FA53335001587B9 /* Vehicle.swift in Sources */,
+				4053DC091FA2F0A1001587B9 /* Prototype.swift in Sources */,
+				4053DC081FA2EB80001587B9 /* PrototypeTests.swift in Sources */,
+				4053DC181FA2F501001587B9 /* FactoryTests.swift in Sources */,
+				4053DC241FA53246001587B9 /* Wheel.swift in Sources */,
+				4053DC0B1FA2F102001587B9 /* main.swift in Sources */,
+				4053DC161FA2F4F6001587B9 /* SingletonTests.swift in Sources */,
+				4053DC0A1FA2F0FE001587B9 /* Color.swift in Sources */,
+				4053DC1D1FA531FB001587B9 /* VehicleType.swift in Sources */,
+				4053DC201FA53216001587B9 /* Bumper.swift in Sources */,
+				4053DC271FA5325D001587B9 /* WheelSize.swift in Sources */,
+				4053DC0E1FA2F4C0001587B9 /* Factory.swift in Sources */,
+				4053DC341FA53CAF001587B9 /* Flower.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +455,34 @@
 			};
 			name = Release;
 		};
+		4053DC041FA2EB59001587B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 92P37DJX69;
+				INFOPLIST_FILE = "unit-tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nns.unit-tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		4053DC051FA2EB59001587B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 92P37DJX69;
+				INFOPLIST_FILE = "unit-tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nns.unit-tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -270,6 +500,15 @@
 			buildConfigurations = (
 				4053DBCB1FA2E46E001587B9 /* Debug */,
 				4053DBCC1FA2E46E001587B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4053DC031FA2EB59001587B9 /* Build configuration list for PBXNativeTarget "unit-tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4053DC041FA2EB59001587B9 /* Debug */,
+				4053DC051FA2EB59001587B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
