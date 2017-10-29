@@ -42,6 +42,9 @@
 		4053DC3A1FA5510E001587B9 /* Builder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4053DC381FA5510E001587B9 /* Builder.swift */; };
 		4053DC3C1FA55AC9001587B9 /* BuilderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4053DC3B1FA55AC9001587B9 /* BuilderTests.swift */; };
 		4053DC3E1FA55F96001587B9 /* VehicleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4053DC3D1FA55F96001587B9 /* VehicleTests.swift */; };
+		4053DC401FA564CA001587B9 /* SimpleObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4053DC3F1FA564CA001587B9 /* SimpleObject.swift */; };
+		4053DC411FA564CA001587B9 /* SimpleObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4053DC3F1FA564CA001587B9 /* SimpleObject.swift */; };
+		4053DC431FA5655B001587B9 /* SimpleObjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4053DC421FA5655B001587B9 /* SimpleObjectTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -82,6 +85,8 @@
 		4053DC381FA5510E001587B9 /* Builder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Builder.swift; sourceTree = "<group>"; };
 		4053DC3B1FA55AC9001587B9 /* BuilderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuilderTests.swift; sourceTree = "<group>"; };
 		4053DC3D1FA55F96001587B9 /* VehicleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleTests.swift; sourceTree = "<group>"; };
+		4053DC3F1FA564CA001587B9 /* SimpleObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleObject.swift; sourceTree = "<group>"; };
+		4053DC421FA5655B001587B9 /* SimpleObjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleObjectTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +141,7 @@
 				4053DC311FA53CA1001587B9 /* Plant */,
 				4053DC211FA53220001587B9 /* Vehicle */,
 				4053DBF51FA2EAE1001587B9 /* Color.swift */,
+				4053DC3F1FA564CA001587B9 /* SimpleObject.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -190,6 +196,7 @@
 		4053DC2B1FA53AD7001587B9 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				4053DC421FA5655B001587B9 /* SimpleObjectTests.swift */,
 				4053DC3D1FA55F96001587B9 /* VehicleTests.swift */,
 				4053DC2F1FA53B1F001587B9 /* WheelTests.swift */,
 			);
@@ -299,6 +306,7 @@
 				4053DC0D1FA2F4C0001587B9 /* Factory.swift in Sources */,
 				4053DC331FA53CAF001587B9 /* Flower.swift in Sources */,
 				4053DC131FA2F4DB001587B9 /* Singleton.swift in Sources */,
+				4053DC401FA564CA001587B9 /* SimpleObject.swift in Sources */,
 				4053DC1F1FA53216001587B9 /* Bumper.swift in Sources */,
 				4053DC261FA5325D001587B9 /* WheelSize.swift in Sources */,
 				4053DC361FA53CED001587B9 /* Plant.swift in Sources */,
@@ -321,11 +329,13 @@
 				4053DC3A1FA5510E001587B9 /* Builder.swift in Sources */,
 				4053DC111FA2F4CE001587B9 /* AbstractFactory.swift in Sources */,
 				4053DC141FA2F4DB001587B9 /* Singleton.swift in Sources */,
+				4053DC431FA5655B001587B9 /* SimpleObjectTests.swift in Sources */,
 				4053DC301FA53B1F001587B9 /* WheelTests.swift in Sources */,
 				4053DC2A1FA53335001587B9 /* Vehicle.swift in Sources */,
 				4053DC3C1FA55AC9001587B9 /* BuilderTests.swift in Sources */,
 				4053DC091FA2F0A1001587B9 /* Prototype.swift in Sources */,
 				4053DC081FA2EB80001587B9 /* PrototypeTests.swift in Sources */,
+				4053DC411FA564CA001587B9 /* SimpleObject.swift in Sources */,
 				4053DC181FA2F501001587B9 /* FactoryTests.swift in Sources */,
 				4053DC3E1FA55F96001587B9 /* VehicleTests.swift in Sources */,
 				4053DC241FA53246001587B9 /* Wheel.swift in Sources */,

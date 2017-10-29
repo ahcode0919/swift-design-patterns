@@ -9,6 +9,7 @@
 import Foundation
 
 struct Vehicle: Equatable {
+    typealias VehicleBuilderClosure = (Vehicle) -> Void
     
     var vehicleType: VehicleType?
     

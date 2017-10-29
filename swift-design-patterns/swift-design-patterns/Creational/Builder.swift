@@ -76,11 +76,20 @@ class Director {
 }
 
 class BuilderExample {
-    static func buildVehicleExample() -> Vehicle {
+    func buildVehicleExample() -> Vehicle {
         let director = Director()
         let utlityTruckBuilder = BuilderUtilityTruck()
         
         director.buildVehicle(builder: utlityTruckBuilder)
         return utlityTruckBuilder.getResult()
+    }
+}
+
+class BuilderWithClosureExample {
+    func buildSimpleObjectExample() -> SimpleObject {
+        let simpleObject = SimpleObject {
+            $0.text = "Test"
+        }
+        return simpleObject
     }
 }

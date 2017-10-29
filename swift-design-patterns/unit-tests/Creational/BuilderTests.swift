@@ -32,7 +32,12 @@ class BuilderTests: XCTestCase {
         director.buildVehicle(builder: builder)
         let vehicle = builder.getResult()
         let testVehicle = Vehicle(vehicleType: .truck, bumper: .heavyDuty, towingPackage: true, wheels: .offroad(size: ._250mm))
-        
         XCTAssertEqual(vehicle, testVehicle)
+    }
+    
+    func testBuildVehicleWithClosure() {
+        let text = "Test"
+        let simpleObject = SimpleObject { $0.text = text }
+        XCTAssertEqual(simpleObject.text, text)
     }
 }
