@@ -8,12 +8,31 @@
 
 import Foundation
 
-struct Vehicle {
-    var vehicleType: VehicleType
+struct Vehicle: Equatable {
     
-    var bumper: Bumper
+    var vehicleType: VehicleType?
     
-    var towingPackage: Bool
+    var bumper: Bumper?
     
-    var wheels: Wheel
+    var towingPackage: Bool?
+    
+    var wheels: Wheel?
+    
+    init(vehicleType: VehicleType) {
+        self.vehicleType = vehicleType
+    }
+    
+    init(vehicleType: VehicleType, bumper: Bumper, towingPackage: Bool, wheels: Wheel) {
+        self.vehicleType = vehicleType
+        self.bumper = bumper
+        self.towingPackage = towingPackage
+        self.wheels = wheels
+    }
+    
+    static func ==(lhs: Vehicle, rhs: Vehicle) -> Bool {
+        return lhs.vehicleType == lhs.vehicleType &&
+            lhs.bumper == rhs.bumper &&
+            lhs.towingPackage == rhs.towingPackage &&
+            lhs.wheels == rhs.wheels
+    }
 }

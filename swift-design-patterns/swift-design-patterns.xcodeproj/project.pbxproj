@@ -38,6 +38,10 @@
 		4053DC341FA53CAF001587B9 /* Flower.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4053DC321FA53CAF001587B9 /* Flower.swift */; };
 		4053DC361FA53CED001587B9 /* Plant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4053DC351FA53CED001587B9 /* Plant.swift */; };
 		4053DC371FA53CED001587B9 /* Plant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4053DC351FA53CED001587B9 /* Plant.swift */; };
+		4053DC391FA5510E001587B9 /* Builder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4053DC381FA5510E001587B9 /* Builder.swift */; };
+		4053DC3A1FA5510E001587B9 /* Builder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4053DC381FA5510E001587B9 /* Builder.swift */; };
+		4053DC3C1FA55AC9001587B9 /* BuilderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4053DC3B1FA55AC9001587B9 /* BuilderTests.swift */; };
+		4053DC3E1FA55F96001587B9 /* VehicleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4053DC3D1FA55F96001587B9 /* VehicleTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -75,6 +79,9 @@
 		4053DC2F1FA53B1F001587B9 /* WheelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WheelTests.swift; sourceTree = "<group>"; };
 		4053DC321FA53CAF001587B9 /* Flower.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flower.swift; sourceTree = "<group>"; };
 		4053DC351FA53CED001587B9 /* Plant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plant.swift; sourceTree = "<group>"; };
+		4053DC381FA5510E001587B9 /* Builder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Builder.swift; sourceTree = "<group>"; };
+		4053DC3B1FA55AC9001587B9 /* BuilderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuilderTests.swift; sourceTree = "<group>"; };
+		4053DC3D1FA55F96001587B9 /* VehicleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +145,7 @@
 			children = (
 				4053DBF91FA2EB2E001587B9 /* CreationalPatterns.md */,
 				4053DC0F1FA2F4CE001587B9 /* AbstractFactory.swift */,
+				4053DC381FA5510E001587B9 /* Builder.swift */,
 				4053DC0C1FA2F4C0001587B9 /* Factory.swift */,
 				4053DBF71FA2EAEB001587B9 /* Prototype.swift */,
 				4053DC121FA2F4DB001587B9 /* Singleton.swift */,
@@ -159,6 +167,7 @@
 			isa = PBXGroup;
 			children = (
 				4053DC191FA2F50F001587B9 /* AbstractFactoryTests.swift */,
+				4053DC3B1FA55AC9001587B9 /* BuilderTests.swift */,
 				4053DC171FA2F501001587B9 /* FactoryTests.swift */,
 				4053DC071FA2EB80001587B9 /* PrototypeTests.swift */,
 				4053DC151FA2F4F6001587B9 /* SingletonTests.swift */,
@@ -170,10 +179,10 @@
 			isa = PBXGroup;
 			children = (
 				4053DC1E1FA53216001587B9 /* Bumper.swift */,
+				4053DC281FA53335001587B9 /* Vehicle.swift */,
 				4053DC1B1FA531FB001587B9 /* VehicleType.swift */,
 				4053DC221FA53246001587B9 /* Wheel.swift */,
 				4053DC251FA5325D001587B9 /* WheelSize.swift */,
-				4053DC281FA53335001587B9 /* Vehicle.swift */,
 			);
 			path = Vehicle;
 			sourceTree = "<group>";
@@ -181,6 +190,7 @@
 		4053DC2B1FA53AD7001587B9 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				4053DC3D1FA55F96001587B9 /* VehicleTests.swift */,
 				4053DC2F1FA53B1F001587B9 /* WheelTests.swift */,
 			);
 			path = Models;
@@ -294,6 +304,7 @@
 				4053DC361FA53CED001587B9 /* Plant.swift in Sources */,
 				4053DBC71FA2E46E001587B9 /* main.swift in Sources */,
 				4053DC101FA2F4CE001587B9 /* AbstractFactory.swift in Sources */,
+				4053DC391FA5510E001587B9 /* Builder.swift in Sources */,
 				4053DBF61FA2EAE1001587B9 /* Color.swift in Sources */,
 				4053DC291FA53335001587B9 /* Vehicle.swift in Sources */,
 				4053DC1C1FA531FB001587B9 /* VehicleType.swift in Sources */,
@@ -307,13 +318,16 @@
 			files = (
 				4053DC1A1FA2F50F001587B9 /* AbstractFactoryTests.swift in Sources */,
 				4053DC371FA53CED001587B9 /* Plant.swift in Sources */,
+				4053DC3A1FA5510E001587B9 /* Builder.swift in Sources */,
 				4053DC111FA2F4CE001587B9 /* AbstractFactory.swift in Sources */,
 				4053DC141FA2F4DB001587B9 /* Singleton.swift in Sources */,
 				4053DC301FA53B1F001587B9 /* WheelTests.swift in Sources */,
 				4053DC2A1FA53335001587B9 /* Vehicle.swift in Sources */,
+				4053DC3C1FA55AC9001587B9 /* BuilderTests.swift in Sources */,
 				4053DC091FA2F0A1001587B9 /* Prototype.swift in Sources */,
 				4053DC081FA2EB80001587B9 /* PrototypeTests.swift in Sources */,
 				4053DC181FA2F501001587B9 /* FactoryTests.swift in Sources */,
+				4053DC3E1FA55F96001587B9 /* VehicleTests.swift in Sources */,
 				4053DC241FA53246001587B9 /* Wheel.swift in Sources */,
 				4053DC0B1FA2F102001587B9 /* main.swift in Sources */,
 				4053DC161FA2F4F6001587B9 /* SingletonTests.swift in Sources */,
