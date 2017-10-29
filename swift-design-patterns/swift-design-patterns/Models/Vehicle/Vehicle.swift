@@ -8,9 +8,17 @@
 
 import Foundation
 
-struct Vehicle: Equatable {
-    typealias VehicleBuilderClosure = (Vehicle) -> Void
+protocol IVehicle {
+    var vehicleType: VehicleType? { get set }
     
+    var bumper: Bumper? { get set }
+    
+    var towingPackage: Bool? { get set }
+    
+    var wheels: Wheel? { get set }
+}
+
+struct Vehicle: IVehicle, Equatable {    
     var vehicleType: VehicleType?
     
     var bumper: Bumper?
