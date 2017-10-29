@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		403F9C201FA66E1D005402C3 /* DecoratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403F9C1F1FA66E1D005402C3 /* DecoratorTests.swift */; };
 		4053DBC71FA2E46E001587B9 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4053DBC61FA2E46E001587B9 /* main.swift */; };
 		4053DBF61FA2EAE1001587B9 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4053DBF51FA2EAE1001587B9 /* Color.swift */; };
 		4053DBF81FA2EAEB001587B9 /* Prototype.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4053DBF71FA2EAEB001587B9 /* Prototype.swift */; };
@@ -45,6 +46,8 @@
 		4053DC401FA564CA001587B9 /* SimpleObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4053DC3F1FA564CA001587B9 /* SimpleObject.swift */; };
 		4053DC411FA564CA001587B9 /* SimpleObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4053DC3F1FA564CA001587B9 /* SimpleObject.swift */; };
 		4053DC431FA5655B001587B9 /* SimpleObjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4053DC421FA5655B001587B9 /* SimpleObjectTests.swift */; };
+		40B911171FA645AF0047CEB3 /* Decorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B911161FA645AF0047CEB3 /* Decorator.swift */; };
+		40B911181FA645AF0047CEB3 /* Decorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B911161FA645AF0047CEB3 /* Decorator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -60,6 +63,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		403F9C1F1FA66E1D005402C3 /* DecoratorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecoratorTests.swift; sourceTree = "<group>"; };
 		4053DBC31FA2E46E001587B9 /* swift-design-patterns */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "swift-design-patterns"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4053DBC61FA2E46E001587B9 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		4053DBF51FA2EAE1001587B9 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
@@ -87,6 +91,8 @@
 		4053DC3D1FA55F96001587B9 /* VehicleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleTests.swift; sourceTree = "<group>"; };
 		4053DC3F1FA564CA001587B9 /* SimpleObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleObject.swift; sourceTree = "<group>"; };
 		4053DC421FA5655B001587B9 /* SimpleObjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleObjectTests.swift; sourceTree = "<group>"; };
+		40B911151FA6457B0047CEB3 /* StructuralPatterns.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = StructuralPatterns.md; sourceTree = "<group>"; };
+		40B911161FA645AF0047CEB3 /* Decorator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Decorator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +113,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		403F9C1E1FA66E03005402C3 /* Structural */ = {
+			isa = PBXGroup;
+			children = (
+				403F9C1F1FA66E1D005402C3 /* DecoratorTests.swift */,
+			);
+			path = Structural;
+			sourceTree = "<group>";
+		};
 		4053DBBA1FA2E46E001587B9 = {
 			isa = PBXGroup;
 			children = (
@@ -129,6 +143,7 @@
 			isa = PBXGroup;
 			children = (
 				4053DBF41FA2EACD001587B9 /* Creational */,
+				40B911141FA6441A0047CEB3 /* Structural */,
 				4053DBF31FA2EAC3001587B9 /* Models */,
 				4053DBC61FA2E46E001587B9 /* main.swift */,
 			);
@@ -163,6 +178,7 @@
 			isa = PBXGroup;
 			children = (
 				4053DC061FA2EB70001587B9 /* Creational */,
+				403F9C1E1FA66E03005402C3 /* Structural */,
 				4053DC2B1FA53AD7001587B9 /* Models */,
 				4053DC021FA2EB59001587B9 /* Info.plist */,
 			);
@@ -210,6 +226,15 @@
 				4053DC351FA53CED001587B9 /* Plant.swift */,
 			);
 			path = Plant;
+			sourceTree = "<group>";
+		};
+		40B911141FA6441A0047CEB3 /* Structural */ = {
+			isa = PBXGroup;
+			children = (
+				40B911151FA6457B0047CEB3 /* StructuralPatterns.md */,
+				40B911161FA645AF0047CEB3 /* Decorator.swift */,
+			);
+			path = Structural;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -315,6 +340,7 @@
 				4053DC391FA5510E001587B9 /* Builder.swift in Sources */,
 				4053DBF61FA2EAE1001587B9 /* Color.swift in Sources */,
 				4053DC291FA53335001587B9 /* Vehicle.swift in Sources */,
+				40B911171FA645AF0047CEB3 /* Decorator.swift in Sources */,
 				4053DC1C1FA531FB001587B9 /* VehicleType.swift in Sources */,
 				4053DBF81FA2EAEB001587B9 /* Prototype.swift in Sources */,
 			);
@@ -329,9 +355,11 @@
 				4053DC3A1FA5510E001587B9 /* Builder.swift in Sources */,
 				4053DC111FA2F4CE001587B9 /* AbstractFactory.swift in Sources */,
 				4053DC141FA2F4DB001587B9 /* Singleton.swift in Sources */,
+				40B911181FA645AF0047CEB3 /* Decorator.swift in Sources */,
 				4053DC431FA5655B001587B9 /* SimpleObjectTests.swift in Sources */,
 				4053DC301FA53B1F001587B9 /* WheelTests.swift in Sources */,
 				4053DC2A1FA53335001587B9 /* Vehicle.swift in Sources */,
+				403F9C201FA66E1D005402C3 /* DecoratorTests.swift in Sources */,
 				4053DC3C1FA55AC9001587B9 /* BuilderTests.swift in Sources */,
 				4053DC091FA2F0A1001587B9 /* Prototype.swift in Sources */,
 				4053DC081FA2EB80001587B9 /* PrototypeTests.swift in Sources */,
