@@ -42,6 +42,8 @@ class VehicleDecorator: IVehicle {
     }
 }
 
+//Can also be implemented with extensions.
+
 class CarInstallTowingPackageDecorator: VehicleDecorator, TowingPackageInstallation {
     func installTowingPackage() {
         self.bumper = .standardWithHitch
@@ -55,3 +57,4 @@ class TruckInstallTowingPackageDecorator: VehicleDecorator, TowingPackageInstall
         self.towingPackage = true
     }
 }
+
