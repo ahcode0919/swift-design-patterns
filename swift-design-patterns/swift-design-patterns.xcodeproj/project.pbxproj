@@ -14,6 +14,11 @@
 		403F9C271FA673F9005402C3 /* Subject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403F9C261FA673F9005402C3 /* Subject.swift */; };
 		403F9C281FA673F9005402C3 /* Subject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403F9C261FA673F9005402C3 /* Subject.swift */; };
 		403F9C2A1FA67431005402C3 /* RealSubjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403F9C291FA67431005402C3 /* RealSubjectTests.swift */; };
+		403F9C2C1FA6886D005402C3 /* Bridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403F9C2B1FA6886D005402C3 /* Bridge.swift */; };
+		403F9C2D1FA6886D005402C3 /* Bridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403F9C2B1FA6886D005402C3 /* Bridge.swift */; };
+		403F9C2F1FA6887F005402C3 /* BridgeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403F9C2E1FA6887F005402C3 /* BridgeTests.swift */; };
+		403F9C341FA81CE1005402C3 /* KeyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403F9C331FA81CE1005402C3 /* KeyTests.swift */; };
+		403F9C361FA81E6A005402C3 /* BridgeVehicleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403F9C351FA81E6A005402C3 /* BridgeVehicleTests.swift */; };
 		4053DBC71FA2E46E001587B9 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4053DBC61FA2E46E001587B9 /* main.swift */; };
 		4053DBF61FA2EAE1001587B9 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4053DBF51FA2EAE1001587B9 /* Color.swift */; };
 		4053DBF81FA2EAEB001587B9 /* Prototype.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4053DBF71FA2EAEB001587B9 /* Prototype.swift */; };
@@ -74,6 +79,10 @@
 		403F9C241FA673A0005402C3 /* ProxyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProxyTests.swift; sourceTree = "<group>"; };
 		403F9C261FA673F9005402C3 /* Subject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subject.swift; sourceTree = "<group>"; };
 		403F9C291FA67431005402C3 /* RealSubjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealSubjectTests.swift; sourceTree = "<group>"; };
+		403F9C2B1FA6886D005402C3 /* Bridge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bridge.swift; sourceTree = "<group>"; };
+		403F9C2E1FA6887F005402C3 /* BridgeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BridgeTests.swift; sourceTree = "<group>"; };
+		403F9C331FA81CE1005402C3 /* KeyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyTests.swift; sourceTree = "<group>"; };
+		403F9C351FA81E6A005402C3 /* BridgeVehicleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BridgeVehicleTests.swift; sourceTree = "<group>"; };
 		4053DBC31FA2E46E001587B9 /* swift-design-patterns */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "swift-design-patterns"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4053DBC61FA2E46E001587B9 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		4053DBF51FA2EAE1001587B9 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
@@ -126,6 +135,7 @@
 		403F9C1E1FA66E03005402C3 /* Structural */ = {
 			isa = PBXGroup;
 			children = (
+				403F9C2E1FA6887F005402C3 /* BridgeTests.swift */,
 				403F9C1F1FA66E1D005402C3 /* DecoratorTests.swift */,
 				403F9C241FA673A0005402C3 /* ProxyTests.swift */,
 			);
@@ -224,6 +234,8 @@
 		4053DC2B1FA53AD7001587B9 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				403F9C351FA81E6A005402C3 /* BridgeVehicleTests.swift */,
+				403F9C331FA81CE1005402C3 /* KeyTests.swift */,
 				403F9C291FA67431005402C3 /* RealSubjectTests.swift */,
 				4053DC421FA5655B001587B9 /* SimpleObjectTests.swift */,
 				4053DC3D1FA55F96001587B9 /* VehicleTests.swift */,
@@ -245,6 +257,7 @@
 			isa = PBXGroup;
 			children = (
 				40B911151FA6457B0047CEB3 /* StructuralPatterns.md */,
+				403F9C2B1FA6886D005402C3 /* Bridge.swift */,
 				40B911161FA645AF0047CEB3 /* Decorator.swift */,
 				403F9C211FA67136005402C3 /* Proxy.swift */,
 			);
@@ -354,6 +367,7 @@
 				4053DC391FA5510E001587B9 /* Builder.swift in Sources */,
 				4053DBF61FA2EAE1001587B9 /* Color.swift in Sources */,
 				403F9C221FA67136005402C3 /* Proxy.swift in Sources */,
+				403F9C2C1FA6886D005402C3 /* Bridge.swift in Sources */,
 				4053DC291FA53335001587B9 /* Vehicle.swift in Sources */,
 				40B911171FA645AF0047CEB3 /* Decorator.swift in Sources */,
 				4053DC1C1FA531FB001587B9 /* VehicleType.swift in Sources */,
@@ -371,11 +385,13 @@
 				4053DC3A1FA5510E001587B9 /* Builder.swift in Sources */,
 				4053DC111FA2F4CE001587B9 /* AbstractFactory.swift in Sources */,
 				4053DC141FA2F4DB001587B9 /* Singleton.swift in Sources */,
+				403F9C341FA81CE1005402C3 /* KeyTests.swift in Sources */,
 				40B911181FA645AF0047CEB3 /* Decorator.swift in Sources */,
 				403F9C2A1FA67431005402C3 /* RealSubjectTests.swift in Sources */,
 				4053DC431FA5655B001587B9 /* SimpleObjectTests.swift in Sources */,
 				4053DC301FA53B1F001587B9 /* WheelTests.swift in Sources */,
 				4053DC2A1FA53335001587B9 /* Vehicle.swift in Sources */,
+				403F9C361FA81E6A005402C3 /* BridgeVehicleTests.swift in Sources */,
 				403F9C201FA66E1D005402C3 /* DecoratorTests.swift in Sources */,
 				4053DC3C1FA55AC9001587B9 /* BuilderTests.swift in Sources */,
 				4053DC091FA2F0A1001587B9 /* Prototype.swift in Sources */,
@@ -386,6 +402,7 @@
 				403F9C281FA673F9005402C3 /* Subject.swift in Sources */,
 				4053DC181FA2F501001587B9 /* FactoryTests.swift in Sources */,
 				4053DC3E1FA55F96001587B9 /* VehicleTests.swift in Sources */,
+				403F9C2D1FA6886D005402C3 /* Bridge.swift in Sources */,
 				4053DC241FA53246001587B9 /* Wheel.swift in Sources */,
 				4053DC0B1FA2F102001587B9 /* main.swift in Sources */,
 				4053DC161FA2F4F6001587B9 /* SingletonTests.swift in Sources */,
@@ -395,6 +412,7 @@
 				4053DC271FA5325D001587B9 /* WheelSize.swift in Sources */,
 				4053DC0E1FA2F4C0001587B9 /* Factory.swift in Sources */,
 				4053DC341FA53CAF001587B9 /* Flower.swift in Sources */,
+				403F9C2F1FA6887F005402C3 /* BridgeTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
