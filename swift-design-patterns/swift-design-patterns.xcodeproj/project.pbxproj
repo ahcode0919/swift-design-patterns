@@ -57,6 +57,14 @@
 		4053DC401FA564CA001587B9 /* SimpleObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4053DC3F1FA564CA001587B9 /* SimpleObject.swift */; };
 		4053DC411FA564CA001587B9 /* SimpleObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4053DC3F1FA564CA001587B9 /* SimpleObject.swift */; };
 		4053DC431FA5655B001587B9 /* SimpleObjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4053DC421FA5655B001587B9 /* SimpleObjectTests.swift */; };
+		40AAB7271FAD92BA00C87F43 /* Flyweight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40AAB7261FAD92BA00C87F43 /* Flyweight.swift */; };
+		40AAB7281FAD92BA00C87F43 /* Flyweight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40AAB7261FAD92BA00C87F43 /* Flyweight.swift */; };
+		40AAB72A1FAD92C200C87F43 /* Composite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40AAB7291FAD92C200C87F43 /* Composite.swift */; };
+		40AAB72B1FAD92C200C87F43 /* Composite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40AAB7291FAD92C200C87F43 /* Composite.swift */; };
+		40AAB72D1FAD92DD00C87F43 /* CompositeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40AAB72C1FAD92DD00C87F43 /* CompositeTests.swift */; };
+		40AAB72F1FAD92EA00C87F43 /* FlyweightTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40AAB72E1FAD92EA00C87F43 /* FlyweightTests.swift */; };
+		40AAB7321FAE615500C87F43 /* Array+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40AAB7311FAE615500C87F43 /* Array+Extension.swift */; };
+		40AAB7331FAE615500C87F43 /* Array+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40AAB7311FAE615500C87F43 /* Array+Extension.swift */; };
 		40B911171FA645AF0047CEB3 /* Decorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B911161FA645AF0047CEB3 /* Decorator.swift */; };
 		40B911181FA645AF0047CEB3 /* Decorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B911161FA645AF0047CEB3 /* Decorator.swift */; };
 /* End PBXBuildFile section */
@@ -110,6 +118,11 @@
 		4053DC3D1FA55F96001587B9 /* VehicleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleTests.swift; sourceTree = "<group>"; };
 		4053DC3F1FA564CA001587B9 /* SimpleObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleObject.swift; sourceTree = "<group>"; };
 		4053DC421FA5655B001587B9 /* SimpleObjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleObjectTests.swift; sourceTree = "<group>"; };
+		40AAB7261FAD92BA00C87F43 /* Flyweight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flyweight.swift; sourceTree = "<group>"; };
+		40AAB7291FAD92C200C87F43 /* Composite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Composite.swift; sourceTree = "<group>"; };
+		40AAB72C1FAD92DD00C87F43 /* CompositeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompositeTests.swift; sourceTree = "<group>"; };
+		40AAB72E1FAD92EA00C87F43 /* FlyweightTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlyweightTests.swift; sourceTree = "<group>"; };
+		40AAB7311FAE615500C87F43 /* Array+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Extension.swift"; sourceTree = "<group>"; };
 		40B911151FA6457B0047CEB3 /* StructuralPatterns.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = StructuralPatterns.md; sourceTree = "<group>"; };
 		40B911161FA645AF0047CEB3 /* Decorator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Decorator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -136,7 +149,9 @@
 			isa = PBXGroup;
 			children = (
 				403F9C2E1FA6887F005402C3 /* BridgeTests.swift */,
+				40AAB72C1FAD92DD00C87F43 /* CompositeTests.swift */,
 				403F9C1F1FA66E1D005402C3 /* DecoratorTests.swift */,
+				40AAB72E1FAD92EA00C87F43 /* FlyweightTests.swift */,
 				403F9C241FA673A0005402C3 /* ProxyTests.swift */,
 			);
 			path = Structural;
@@ -146,6 +161,7 @@
 			isa = PBXGroup;
 			children = (
 				4053DBC51FA2E46E001587B9 /* swift-design-patterns */,
+				40AAB7301FAE614300C87F43 /* Extensions */,
 				4053DBFF1FA2EB59001587B9 /* unit-tests */,
 				4053DBC41FA2E46E001587B9 /* Products */,
 			);
@@ -253,12 +269,22 @@
 			path = Plant;
 			sourceTree = "<group>";
 		};
+		40AAB7301FAE614300C87F43 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				40AAB7311FAE615500C87F43 /* Array+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		40B911141FA6441A0047CEB3 /* Structural */ = {
 			isa = PBXGroup;
 			children = (
 				40B911151FA6457B0047CEB3 /* StructuralPatterns.md */,
 				403F9C2B1FA6886D005402C3 /* Bridge.swift */,
+				40AAB7291FAD92C200C87F43 /* Composite.swift */,
 				40B911161FA645AF0047CEB3 /* Decorator.swift */,
+				40AAB7261FAD92BA00C87F43 /* Flyweight.swift */,
 				403F9C211FA67136005402C3 /* Proxy.swift */,
 			);
 			path = Structural;
@@ -355,7 +381,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				4053DC231FA53246001587B9 /* Wheel.swift in Sources */,
+				40AAB7271FAD92BA00C87F43 /* Flyweight.swift in Sources */,
 				4053DC0D1FA2F4C0001587B9 /* Factory.swift in Sources */,
+				40AAB7321FAE615500C87F43 /* Array+Extension.swift in Sources */,
 				4053DC331FA53CAF001587B9 /* Flower.swift in Sources */,
 				4053DC131FA2F4DB001587B9 /* Singleton.swift in Sources */,
 				4053DC401FA564CA001587B9 /* SimpleObject.swift in Sources */,
@@ -366,6 +394,7 @@
 				4053DC101FA2F4CE001587B9 /* AbstractFactory.swift in Sources */,
 				4053DC391FA5510E001587B9 /* Builder.swift in Sources */,
 				4053DBF61FA2EAE1001587B9 /* Color.swift in Sources */,
+				40AAB72A1FAD92C200C87F43 /* Composite.swift in Sources */,
 				403F9C221FA67136005402C3 /* Proxy.swift in Sources */,
 				403F9C2C1FA6886D005402C3 /* Bridge.swift in Sources */,
 				4053DC291FA53335001587B9 /* Vehicle.swift in Sources */,
@@ -389,7 +418,9 @@
 				40B911181FA645AF0047CEB3 /* Decorator.swift in Sources */,
 				403F9C2A1FA67431005402C3 /* RealSubjectTests.swift in Sources */,
 				4053DC431FA5655B001587B9 /* SimpleObjectTests.swift in Sources */,
+				40AAB72D1FAD92DD00C87F43 /* CompositeTests.swift in Sources */,
 				4053DC301FA53B1F001587B9 /* WheelTests.swift in Sources */,
+				40AAB7331FAE615500C87F43 /* Array+Extension.swift in Sources */,
 				4053DC2A1FA53335001587B9 /* Vehicle.swift in Sources */,
 				403F9C361FA81E6A005402C3 /* BridgeVehicleTests.swift in Sources */,
 				403F9C201FA66E1D005402C3 /* DecoratorTests.swift in Sources */,
@@ -400,11 +431,14 @@
 				4053DC411FA564CA001587B9 /* SimpleObject.swift in Sources */,
 				403F9C231FA67136005402C3 /* Proxy.swift in Sources */,
 				403F9C281FA673F9005402C3 /* Subject.swift in Sources */,
+				40AAB72B1FAD92C200C87F43 /* Composite.swift in Sources */,
 				4053DC181FA2F501001587B9 /* FactoryTests.swift in Sources */,
 				4053DC3E1FA55F96001587B9 /* VehicleTests.swift in Sources */,
 				403F9C2D1FA6886D005402C3 /* Bridge.swift in Sources */,
 				4053DC241FA53246001587B9 /* Wheel.swift in Sources */,
 				4053DC0B1FA2F102001587B9 /* main.swift in Sources */,
+				40AAB7281FAD92BA00C87F43 /* Flyweight.swift in Sources */,
+				40AAB72F1FAD92EA00C87F43 /* FlyweightTests.swift in Sources */,
 				4053DC161FA2F4F6001587B9 /* SingletonTests.swift in Sources */,
 				4053DC0A1FA2F0FE001587B9 /* Color.swift in Sources */,
 				4053DC1D1FA531FB001587B9 /* VehicleType.swift in Sources */,

@@ -8,7 +8,6 @@
 
 import Foundation
 import XCTest
-@testable import swift_design_patterns
 
 class PrototypeTests: XCTestCase {
     var aTestCar: Car!
